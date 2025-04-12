@@ -1,0 +1,39 @@
+@use './colors';
+@use './spacing';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    // letter-spacing: 1px;
+    color: colors.$blue-800;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 400;
+    color: colors.$blue-700;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: spacing.$xs-spacing;
+    margin-bottom: spacing.$lg-spacing;
+    li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: spacing.$xs-spacing;
+        font-size: 0.8em;
+        font-weight: 400;
+        color: colors.$blue-700;
+    }
+}

@@ -1,0 +1,37 @@
+@use './colors';
+
+@mixin button-style ($bgColor, $textColor) {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    background: $bgColor;
+    color: $textColor;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+
+    &:hover {
+        background: colors.$primary-color;
+    }
+}
+
+
+@mixin input-style () {
+    width: 100%;
+    padding: 10px;
+    color: colors.$gray;
+    outline: none;
+    border: none;
+    border: 2px solid colors.$gray;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover, &:focus {
+        border-color: colors.$blue-800;
+        color: colors.$blue-800;
+    }
+}
