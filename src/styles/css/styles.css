@@ -135,7 +135,7 @@ form button:hover {
 .success__card .success_content h1 {
   margin-top: 20px;
 }
-.success__card p {
+.success__card .success_content p {
   margin: 20px 0;
 }
 .success__card button {
@@ -185,6 +185,9 @@ form button:hover {
   }
   .success__card .success_content {
     margin: 6rem 2rem;
+  }
+  .success__card .success_content button {
+    margin-top: 15rem;
   }
 }
 

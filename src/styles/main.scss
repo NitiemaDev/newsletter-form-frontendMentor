@@ -98,7 +98,7 @@ form {
         margin-top: spacing.$md-spacing;
     }
 
-    p {
+    .success_content p {
         margin: spacing.$md-spacing 0;
     }
 
@@ -147,4 +147,9 @@ form {
     .success__card .success_content {
         margin: 6rem 2rem;
     }
+
+    .success__card .success_content button {
+        margin-top: 15rem;
+    }
+
 }
