@@ -54,9 +54,9 @@
               <span id="errorMessagetag"></span>
             </label>
           <div class="input__box">
-            <input type="email" name="user__email" id="user__email" placeholder="email@company.com" class="">
+            <input  name="user__email" id="user__email" placeholder="email@company.com" class="">
           </div>
-          <button type="submit">Subscribe to monthly newsletter</button>
+          <button type="submit" id="submitButton">Subscribe to monthly newsletter</button>
         </form>
       </div>
       <picture class="image__part">
@@ -69,7 +69,7 @@
 
 
   <!-- Success message start -->
-  <div class="success__card" style="display: none;">
+  <div class="success__card">
     <div class="success_content">
       <div>
         <span>
@@ -78,10 +78,10 @@
         <h1>Thanks for subscribing!</h1>
       </div>
       <p>
-        A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. 
+        A confirmation email has been sent to <strong id="emailDisplay">ash@loremcompany.com</strong>. 
         Please open it and click the button inside to confirm your subscription.
       </p>
-      <button>Dismiss message</button>
+      <button id="dismissButton">Dismiss message</button>
     </div>
   </div>
   <!-- Success message end -->
@@ -90,5 +90,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://nitiema-allassane-blog.vercel.app/">Nitiema Allassane</a>.
   </div>
+
+  <script src="./src/js/script.js"></script>
 </body>
 </html>

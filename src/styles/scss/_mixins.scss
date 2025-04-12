@@ -16,6 +16,7 @@
 
     &:hover {
         background: colors.$primary-color;
+        box-shadow: 4px 12px 20px colors.$primary-color;
     }
 }
 
